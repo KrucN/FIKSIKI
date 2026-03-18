@@ -31,7 +31,7 @@ function App() {
                         type="text"
                         value={task}
                         onChange={(e) => setTask(e.target.value)}
-                        placeholder="Введи задачу..."
+                        placeholder="Введіть задачу..."
                         style={styles.input}
                     />
                     <button onClick={addTask} style={styles.addBtn}>
@@ -80,7 +80,7 @@ const styles = {
         backgroundColor: "#ffffff",
         padding: "30px",
         borderRadius: "12px",
-        width: "400px",
+        width: "600px",
         boxShadow: "0 10px 30px rgba(0,0,0,0.3)",
     },
     title: {
@@ -89,7 +89,7 @@ const styles = {
     },
     inputRow: {
         display: "flex",
-        marginBottom: "20px",
+        marginBottom: "50px",
     },
     input: {
         flex: 1,
